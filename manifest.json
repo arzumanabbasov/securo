@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Securo - Gmail Phishing Detector",
+  "version": "1.0",
+  "description": "AI-powered phishing detection for Gmail using OpenAI",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://mail.google.com/*",
+    "https://api.openai.com/*"
+  ],
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "src/icons/icon16.png",
+      "48": "src/icons/icon48.png",
+      "128": "src/icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["src/js/content.js"]
+    }
+  ]
+} 

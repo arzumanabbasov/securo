@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background shield -->
+  <path d="M100 10 L180 45 L180 100 Q180 160 100 190 Q20 160 20 100 L20 45 Z" fill="#f2f2f2" stroke="#4285F4" stroke-width="4"/>
+  
+  <!-- Email icon -->
+  <rect x="60" y="70" width="80" height="60" rx="5" ry="5" fill="white" stroke="#4285F4" stroke-width="2"/>
+  <path d="M60 80 L100 105 L140 80" fill="none" stroke="#4285F4" stroke-width="2"/>
+  
+  <!-- Green security circle -->
+  <circle cx="100" cy="100" r="25" fill="#34A853" opacity="0.9"/>
+  
+  <!-- Shield icon in green circle instead of lock -->
+  <path d="M100 85 L115 92 L115 105 Q115 115 100 120 Q85 115 85 105 L85 92 Z" fill="#34A853" stroke="white" stroke-width="1.5"/>
+  
+  <!-- Checkmark -->
+  <path d="M90 100 L97 107 L110 94" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Securo text -->
+  <text x="100" y="150" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#4285F4">SECURO</text>
+</svg>
