@@ -15,9 +15,9 @@
   "action": {
     "default_popup": "src/popup.html",
     "default_icon": {
-      "16": "src/icons/icon16.png",
-      "48": "src/icons/icon48.png",
-      "128": "src/icons/icon128.png"
+      "16": "src/icons/securo-logo-revised.svg",
+      "48": "src/icons/securo-logo-revised.svg",
+      "128": "src/icons/securo-logo-revised.svg"
     }
   },
   "content_scripts": [
