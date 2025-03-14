@@ -1,4 +1,4 @@
-# <img src="src/icons/securo-logo-revised.svg" alt="Securo Logo" width="40"> Securo - Gmail Phishing Detector
+# <img src="src/icons/securo-logo-revised.svg" alt="Securo Logo" width="60"> Securo - Gmail Phishing Detector
 
 A Chrome extension that analyzes Gmail emails for potential phishing attempts with a single click. No login or configuration required.
 
